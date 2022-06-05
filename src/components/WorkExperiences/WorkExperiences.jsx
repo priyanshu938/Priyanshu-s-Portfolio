@@ -1,33 +1,8 @@
 import React from "react";
 import WorkExperience from "./WorkExperience";
+import works from "./worksAPI"
 const WorkExperiences = () => {
-  const works = [
-    {
-      id: 1,
-      name: "Shooting Stars",
-      description: "vdskvnsvn svn dvn vn vnsx n,vnzvnznvzvn z,.v",
-    },
-    {
-      id: 2,
-      name: "Shooting Stars",
-      description: "vdskvnsvn svn dvn vn vnsx n,vnzvnznvzvn z,.v",
-    },
-    {
-      id: 3,
-      name: "Shooting Stars",
-      description: "vdskvnsvn svn dvn vn vnsx n,vnzvnznvzvn z,.v",
-    },
-    {
-      id: 4,
-      name: "Shooting Stars",
-      description: "vdskvnsvn svn dvn vn vnsx n,vnzvnznvzvn z,.v",
-    },
-    {
-      id: 5,
-      name: "Shooting Stars",
-      description: "vdskvnsvn svn dvn vn vnsx n,vnzvnznvzvn z,.v",
-    },
-  ];
+
   return (
     <section id="works" className="text-gray-400 body-font bg-gray-900">
       <div className="container px-5 py-24 mx-auto">
@@ -43,9 +18,7 @@ const WorkExperiences = () => {
           {works.map((work) => (
             <WorkExperience
               key={work.id}
-              id={work.id}
-              name={work.name}
-              description={work.description}
+              work={work}
             />
           ))}
         </div>

@@ -1,38 +1,8 @@
 import React from "react";
 import Project from "./Project";
-
+import projects from "./projectsAPI"
 const Projects = () => {
-    const projects=[
-        
-        {
-        id:1,
-        image:"https://dummyimage.com/200x200",
-        title:"Project 1",
-        description:"skvnkvdknvdklvndkvndknvdkn dk ndknvkvnskvnkdvndkvndkvnknvdxkvndskvn sklnvskvnvnnvxklvndsn"
-    },
-    {
-        id:2,
-        image:"https://dummyimage.com/200x200",
-        title:"Project 2",
-        description:"skvnkvdknvdklvndkvndknvdkn dk ndknvkvnskvnkdvndkvndkvnknvdxkvndskvn sklnvskvnvnnvxklvndsn"
-    },
-    {
-        id:3,
-        image:"https://dummyimage.com/200x200",
-        title:"Project 3",
-        description:"skvnkvdknvdklvndkvndknvdkn dk ndknvkvnskvnkdvndkvndkvnknvdxkvndskvn sklnvskvnvnnvxklvndsn"
-    }, {
-        id:4,
-        image:"https://dummyimage.com/200x200",
-        title:"Project 4",
-        description:"skvnkvdknvdklvndkvndknvdkn dk ndknvkvnskvnkdvndkvndkvnknvdxkvndskvn sklnvskvnvnnvxklvndsn"
-    }, {
-        id:5,
-        image:"https://dummyimage.com/200x200",
-        title:"Project 5",
-        description:"skvnkvdknvdklvndkvndknvdkn dk ndknvkvnskvnkdvndkvndkvnknvdxkvndskvn sklnvskvnvnnvxklvndsn"
-    }
-]
+ 
   return (
     <section id="projects" className="text-gray-400 bg-gray-900 body-font">
       <div className="container px-5 py-24 mx-auto">
@@ -45,7 +15,7 @@ const Projects = () => {
         </div>
       <div className="flex flex-wrap -m-4 ">
       {projects.map((project)=>
-      (<Project key={project.id} image={project.image} title={project.title} description={project.description} />)
+      (<Project key={project.id} project={project}/>)
       
       
       )}

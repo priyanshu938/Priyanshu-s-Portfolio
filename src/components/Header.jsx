@@ -7,6 +7,7 @@ const Header = () => {
     { name: "SKILLS", link: "#skills" },
     { name: "PROJECTS", link: "#projects" },
     { name: "WORKS", link: "#works" },
+    { name: "CERTIFICATES", link: "#certificates" },
     { name: "CONTACT", link: "#contact" },
   ];
   let [open, setOpen] = useState(false);
