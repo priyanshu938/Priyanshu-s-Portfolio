@@ -7,7 +7,7 @@ import Testimonial from "./components/Testimonial";
 import Project from "./components/Projects/Projects";
 import Footer from "./components/Footer";
 import Skills from "./components/Skills/Skills";
-import Certificates from "./components/Certifications/Certificates"
+import Certificates from "./components/Certifications/Certificates";
 function App() {
   return (
     <>

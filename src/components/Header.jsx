@@ -28,10 +28,8 @@ const Header = () => {
           onClick={() => setOpen(!open)}
           className="text-3xl absolute right-8 top-6 cursor-pointer md:hidden"
         >
-        <span className="text-white">
-          <ion-icon
-            name={open ? "close" : "menu"}
-          ></ion-icon>
+          <span className="text-white">
+            <ion-icon name={open ? "close" : "menu"}></ion-icon>
           </span>
         </div>
 

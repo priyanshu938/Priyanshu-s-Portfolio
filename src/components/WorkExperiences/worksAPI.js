@@ -1,33 +1,16 @@
 const works = [
-    {
-      id: 1,
-      name: "Shooting Stars",
-      image:"https://dummyimage.com/720x400",
-      description: "vdskvnsvn svn dvn vn vnsx n,vnzvnznvzvn z,.v",
-    },
+  {
+    id: 1,
+    name: "Techdock Labs Ltd.",
+    image:"images/techdock.jpg",
+    description: "Working as a MERN Stack Intern.",
+  },
     {
       id: 2,
-      name: "Shooting Stars",
-      image:"https://dummyimage.com/720x400",
-      description: "vdskvnsvn svn dvn vn vnsx n,vnzvnznvzvn z,.v",
+      name: "Code Rower Software Pvt. Ltd.",
+      image:"images/coderower.jpg",
+      description: "Worked as an Intern on Front-end developmemt for 45 days.",
     },
-    {
-      id: 3,
-      name: "Shooting Stars",
-      image:"https://dummyimage.com/720x400",
-      description: "vdskvnsvn svn dvn vn vnsx n,vnzvnznvzvn z,.v",
-    },
-    {
-      id: 4,
-      name: "Shooting Stars",
-      image:"https://dummyimage.com/720x400",
-      description: "vdskvnsvn svn dvn vn vnsx n,vnzvnznvzvn z,.v",
-    },
-    {
-      id: 5,
-      name: "Shooting Stars",
-      image:"https://dummyimage.com/720x400",
-      description: "vdskvnsvn svn dvn vn vnsx n,vnzvnznvzvn z,.v",
-    },
+    
   ];
 export default works;

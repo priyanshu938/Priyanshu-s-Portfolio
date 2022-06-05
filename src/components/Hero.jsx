@@ -3,18 +3,18 @@ const Hero = () => {
   return (
     <div id="home">
       <section className="text-gray-400 bg-gray-900 body-font">
-        <div className="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
+        <div className="container mx-auto flex px-20 py-24 md:flex-row flex-col items-center">
           <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
             <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-white">
-            Hello, I am
+              Hello, I am
               <br className="hidden lg:inline-block" />
               Priyanshu Tiwari
             </h1>
             <p className="mb-8 leading-relaxed">
-            I always do my best in what I take. A very positive person who loves learning new things and
-                        meeting new people.A full stack web developer.Passionate to learn new web technologies
-                        and frameworks.
-                        Proficient in MERN Stack.
+              I always do my best in what I take. A very positive person who
+              loves learning new things and meeting new people.A full stack web
+              developer.Passionate to learn new web technologies and frameworks.
+              Proficient in MERN Stack.
             </p>
             <div className="flex justify-center">
               <a
