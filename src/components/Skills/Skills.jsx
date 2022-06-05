@@ -1,14 +1,7 @@
 import React from "react";
 import Skill from "./Skill";
-
+import skills from "./skillsAPI"
 const Skills = () => {
-  const skills = [
-    { id: 1, skill: "HTML" },
-    { id: 2, skill: "Javascript" },
-    { id: 3, skill: "Css" },
-    { id: 4, skill: "Java" },
-    { id: 5, skill: "Python" },
-  ];
   return (
     <section id="skills" className="text-gray-400 bg-gray-900 body-font">
       <div className="container px-5 py-24 mx-auto">
@@ -20,7 +13,7 @@ const Skills = () => {
         </div>
         <div className="flex flex-wrap -m-2">
           {skills.map((skill) => (
-            <Skill key={skill.id} skill={skill.skill} />
+            <Skill key={skill.id} skill={skill} />
           ))}
         </div>
       </div>

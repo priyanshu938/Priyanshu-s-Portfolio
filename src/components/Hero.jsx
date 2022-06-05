@@ -1,5 +1,4 @@
 import React from "react";
-import profile from "../images/profile-pic.png";
 const Hero = () => {
   return (
     <div id="home">
@@ -23,7 +22,7 @@ const Hero = () => {
                   "https://drive.google.com/file/d/1b4YKKy_JMdOxxvcUYN3j4Q_j4m3Ra_9c/view?usp=sharing"
                 }
               >
-                <button className="inline-flex text-white bg-blue-500 border-0 py-2 px-6 focus:outline-none hover:bg-blue-600 rounded text-lg">
+                <button className="inline-flex text-white bg-blue-500 border-0 py-2 px-6 focus:outline-none hover:bg-blue-600 rounded text-lg transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 hover:bg-blue-500 duration-300">
                   Resume
                 </button>
               </a>
@@ -33,7 +32,7 @@ const Hero = () => {
             <img
               className="object-cover object-center rounded "
               alt="hero"
-              src={profile}
+              src={"images/profile-pic.png"}
               height={"300vh"}
               width={"300vw"}
             />

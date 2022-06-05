@@ -43,7 +43,7 @@ const Projects = () => {
           </h1>
          
         </div>
-      <div className="flex flex-wrap -m-4">
+      <div className="flex flex-wrap -m-4 ">
       {projects.map((project)=>
       (<Project key={project.id} image={project.image} title={project.title} description={project.description} />)
       

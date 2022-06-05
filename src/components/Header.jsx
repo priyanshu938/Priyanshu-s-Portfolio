@@ -17,7 +17,7 @@ const Header = () => {
           className="font-bold text-2xl cursor-pointer flex items-center font-[Poppins] 
       text-white"
         >
-          <span className="text-3xl text-indigo-600 mr-1 pt-2">
+          <span className="text-3xl text-blue-600 mr-1 pt-2">
             <ion-icon name="logo-ionic"></ion-icon>
           </span>
           &lt;PORTFOLIO/&gt;
@@ -40,7 +40,7 @@ const Header = () => {
           }`}
         >
           {Links.map((link) => (
-            <li key={link.name} className="md:ml-8 text-xl md:my-0 my-7">
+            <li key={link.name} className="md:ml-8 text-xl md:my-0 my-7 ">
               <a
                 href={link.link}
                 className="text-white hover:text-blue-400 duration-500"

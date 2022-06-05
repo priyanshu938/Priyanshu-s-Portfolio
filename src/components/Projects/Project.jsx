@@ -3,8 +3,8 @@ import React from "react";
 const Project = ({ image, title, description }) => {
   return (
     
-      <div className="p-4 lg:w-1/2">
-        <div className="h-full flex sm:flex-row flex-col items-center sm:justify-start justify-center text-center sm:text-left">
+      <div className="p-4 lg:w-1/2  ">
+        <div className="h-full cursor-pointer flex sm:flex-row flex-col items-center sm:justify-start justify-center text-center sm:text-left transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 hover:bg-black-400 duration-300 p-4">
           <img
             alt="team"
             className="flex-shrink-0 rounded-lg w-48 h-48 object-cover object-center sm:mb-0 mb-4"

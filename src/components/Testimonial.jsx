@@ -21,7 +21,7 @@ const Testimonial = () => {
             on Javascript libraries like jQuery and React.js. I know MongoDB in
             database technology.
           </p>
-          <span className="inline-block h-1 w-10 rounded bg-indigo-500 mt-8 mb-6"></span>
+          <span className="inline-block h-1 w-10 rounded bg-blue-500 mt-8 mb-6"></span>
           <h2 className="text-white font-medium title-font tracking-wider text-sm">
             Priyanshu Tiwari
           </h2>
