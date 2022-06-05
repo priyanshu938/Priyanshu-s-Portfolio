@@ -6,7 +6,7 @@ import WorkExperiences from "./components/WorkExperiences/WorkExperiences";
 import Testimonial from "./components/Testimonial";
 import Project from "./components/Projects/Projects";
 import Footer from "./components/Footer";
-import Skills from "./components/Skills/Skills"
+import Skills from "./components/Skills/Skills";
 function App() {
   return (
     <>

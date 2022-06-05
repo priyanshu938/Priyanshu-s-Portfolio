@@ -29,7 +29,7 @@ const WorkExperiences = () => {
     },
   ];
   return (
-    <section id="work" className="text-gray-400 body-font bg-gray-900">
+    <section id="works" className="text-gray-400 body-font bg-gray-900">
       <div className="container px-5 py-24 mx-auto">
         <div className="flex flex-wrap w-full mb-20">
           <div className="lg:w-1/2 w-full mb-6 lg:mb-0">
