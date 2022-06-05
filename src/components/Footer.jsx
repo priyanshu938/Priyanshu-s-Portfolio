@@ -34,6 +34,7 @@ const Footer = () => {
           <a
             href={"https://www.facebook.com/profile.php?id=100027421176030"}
             className="text-gray-400"
+            title="facebook"
           >
             <svg
               fill="currentColor"
@@ -48,7 +49,8 @@ const Footer = () => {
           </a>
           <a
             href={"https://twitter.com/Priyans76074042"}
-            className="ml-3 text-gray-400"
+            className="ml-4 text-gray-400"
+            title="twitter"
           >
             <svg
               fill="currentColor"
@@ -63,7 +65,8 @@ const Footer = () => {
           </a>
           <a
             href={"https://www.instagram.com/_.priyanshu._031/"}
-            className="ml-3 text-gray-400"
+            className="ml-4 text-gray-400"
+            title="instagram"
           >
             <svg
               fill="none"
@@ -80,7 +83,8 @@ const Footer = () => {
           </a>
           <a
             href={"https://www.linkedin.com/in/priyanshu-tiwari-602586199"}
-            className="ml-3 text-gray-400"
+            className="ml-4 text-gray-400"
+            title="linkedin"
           >
             <svg
               fill="currentColor"
@@ -97,6 +101,15 @@ const Footer = () => {
               ></path>
               <circle cx="4" cy="4" r="2" stroke="none"></circle>
             </svg>
+          </a>
+          <a
+            title="github"
+            href={"https://github.com/priyanshu938"}
+            rel="noopener"
+            target="_blank"
+            className="ml-4 text-gray-400"
+          >
+            <i className="fa-brands fa-github"></i>
           </a>
         </span>
       </div>
