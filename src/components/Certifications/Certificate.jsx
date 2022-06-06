@@ -2,11 +2,11 @@ import React from "react";
 
 const Certificate = ({ certificate }) => {
   return (
-    <div className="lg:w-1/3  sm:w-1/2 p-4">
+    <div className="lg:w-1/4 md:w-1/2 sm:1 ">
       <div className="flex relative cursor-pointer ">
         <img
           alt="gallery"
-          className="absolute inset-0 w-5/6 h-5/6  object-cover object-center"
+          className="absolute inset-0 w-5/6 h-5/6  object-cover object-center "
           src={certificate.image}
           style={{ maxWidth: "100%", maxHeight: "100%" }}
         />
