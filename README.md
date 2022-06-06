@@ -1,1 +1,1 @@
-Visit my portfolio site from here: https://629d923509b18d5a9ccf7c56--priyanshu-tiwari-portfolio.netlify.app/
+Visit my portfolio site from here: https://priyanshu-tiwari-portfolio.netlify.app
