@@ -48,9 +48,6 @@ const Header = () => {
               </a>
             </li>
           ))}
-          {/* <Button>
-          Get Started
-        </Button> */}
         </ul>
       </div>
     </div>
