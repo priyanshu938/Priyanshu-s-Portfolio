@@ -21,7 +21,7 @@ const projects = [
   {
     id: 3,
     image: "images/secrets.png",
-    title: "Project 3",
+    title: "Secrets Share",
     description:
       "A Secrets share site on which users can visit and login thourgh their id's and share their secrets without their identity being disclosed.",
     githubLink: "https://github.com/priyanshu938/Authentication_Secrets",
