@@ -8,6 +8,7 @@ const Project = ({ project }) => {
           alt="team"
           className="flex-shrink-0 rounded-lg w-48 h-48 object-cover object-center sm:mb-0 mb-4"
           src={project.image}
+          style={{ maxWidth: "100%", maxHeight: "100%" }}
         />
         <div className="flex-grow sm:pl-8">
           <h2 className="title-font font-medium text-lg text-white">
@@ -21,6 +22,7 @@ const Project = ({ project }) => {
                 href={project.githubLink}
                 rel="noopener"
                 target="_blank"
+                className="hover:text-black-600 transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 hover:bg-black-400 duration-300"
               >
                 <i className="fa-brands fa-github m-2"></i>
               </a>
@@ -31,6 +33,7 @@ const Project = ({ project }) => {
                 href={project.youtubeVideoLink}
                 rel="noopener"
                 target="_blank"
+                className="hover:text-red-600 transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 hover:bg-black-400 duration-300"
               >
                 <i className="fa-brands fa-youtube m-2"></i>
               </a>
@@ -41,6 +44,8 @@ const Project = ({ project }) => {
                 href={project.liveProjectLink}
                 rel="noopener"
                 target="_blank"
+                className="hover:text-blue-300 transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 hover:bg-black-400 duration-300"
+
               >
                 <i className="fa-solid fa-eye m-2"></i>
               </a>

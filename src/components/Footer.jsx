@@ -14,7 +14,7 @@ const Footer = () => {
             strokeLinecap="round"
             strokeLinejoin="round"
             strokeWidth="2"
-            className="w-10 h-10 text-white p-2 bg-indigo-500 rounded-full"
+            className="w-10 h-10 text-white p-2 bg-indigo-500 rounded-full "
             viewBox="0 0 24 24"
           >
             <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
@@ -33,7 +33,7 @@ const Footer = () => {
         <span className="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start">
           <a
             href={"https://www.facebook.com/profile.php?id=100027421176030"}
-            className="text-gray-400"
+            className="text-gray-400 hover:text-blue-600 transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 hover:bg-black-400 duration-300"
             title="facebook"
           >
             <svg
@@ -49,7 +49,7 @@ const Footer = () => {
           </a>
           <a
             href={"https://twitter.com/Priyans76074042"}
-            className="ml-4 text-gray-400"
+            className="ml-4 text-gray-400 hover:text-blue-400 transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 hover:bg-black-400 duration-300"
             title="twitter"
           >
             <svg
@@ -65,7 +65,7 @@ const Footer = () => {
           </a>
           <a
             href={"https://www.instagram.com/_.priyanshu._031/"}
-            className="ml-4 text-gray-400"
+            className="ml-4 text-gray-400 hover:text-red-400 transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 hover:bg-black-400 duration-300"
             title="instagram"
           >
             <svg
@@ -83,7 +83,7 @@ const Footer = () => {
           </a>
           <a
             href={"https://www.linkedin.com/in/priyanshu-tiwari-602586199"}
-            className="ml-4 text-gray-400"
+            className="ml-4 text-gray-400 hover:text-blue-600 transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 hover:bg-black-400 duration-300"
             title="linkedin"
           >
             <svg
@@ -107,7 +107,7 @@ const Footer = () => {
             href={"https://github.com/priyanshu938"}
             rel="noopener"
             target="_blank"
-            className="ml-4 text-gray-400"
+            className="ml-4 text-gray-400 hover:text-black-600 transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 hover:bg-black-400 duration-300"
           >
             <i className="fa-brands fa-github"></i>
           </a>
