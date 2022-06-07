@@ -1,7 +1,7 @@
 const projects = [
   {
     id: 1,
-    image: "images/tindog.png",
+    image: "images/tindog.jpg",
     title: "Tindog Website",
     description: "A simple static website made using HTML and CSS.",
     githubLink: "https://github.com/priyanshu938/tindogSite",
@@ -10,7 +10,7 @@ const projects = [
   },
   {
     id: 2,
-    image: "images/blog.png",
+    image: "images/blog.jpg",
     title: "A Blog Website",
     description:
       "A blog website in which you can write your blogs built using EJS template engine and Node.js.",
@@ -30,7 +30,7 @@ const projects = [
   },
   {
     id: 4,
-    image: "images/todos.png",
+    image: "images/todos.jpg",
     title: "Todos App using React.js",
     description:
       "A todo list app which saves todos in your local storage in which you can write your daily taks and delete them when they are done.",
@@ -40,7 +40,7 @@ const projects = [
   },
   {
     id: 5,
-    image: "images/sachin-portfolio.png",
+    image: "images/sachin-portfolio.jpg",
     title: "Sachin's portfolio",
     description: "Built a Portfolio site for my friend.",
     githubLink: "https://github.com/priyanshu938/Sachin-Portfolio",
@@ -89,7 +89,7 @@ const projects = [
   },
   {
     id: 10,
-    image: "images/movie.jpg",
+    image: "images/movies.jpg",
     title: "Movie App",
     description:
       "In this app you can search for a movie and it will fetch the details for that movie and will show you. ",

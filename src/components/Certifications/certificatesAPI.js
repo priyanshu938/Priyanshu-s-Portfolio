@@ -16,7 +16,7 @@ const certificates = [
   {
     id: 3,
     name: "CCNA: Introduction to Networks",
-    image: "images/ccna.png",
+    image: "images/ccna.jpg",
     description: "CISCO Networking Academy",
     link:"https://www.credly.com/badges/aae2c0b1-1faf-4c8a-95c2-ab1834593767"
   },
