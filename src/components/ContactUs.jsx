@@ -6,7 +6,7 @@ const ContactUs = () => {
       id="contact"
       className="text-gray-400 bg-gray-900 body-font relative"
     >
-      <div className="container px-20 py-10 mx-auto flex sm:flex-nowrap flex-wrap">
+      <div className="container px-20 py-10 mx-auto flex sm:flex-nowrap flex-wrap sm:px-10">
         <div className="lg:w-2/3 md:w-1/2 bg-gray-900 rounded-lg overflow-hidden sm:mr-10 p-10 flex items-end justify-start relative">
           <iframe
             width="100%"
@@ -20,7 +20,7 @@ const ContactUs = () => {
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d227821.9337586808!2d80.80242359468362!3d26.848929332651974!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x399bfd991f32b16b%3A0x93ccba8909978be7!2sLucknow%2C%20Uttar%20Pradesh!5e0!3m2!1sen!2sin!4v1654353962277!5m2!1sen!2sin"
           ></iframe>
           <div className="bg-gray-900 relative flex flex-wrap py-6 rounded shadow-md">
-            <div className="lg:w-1/3 px-6">
+            <div className="lg:w-1/3 px-6 ">
               <h2 className="title-font font-semibold text-white tracking-widest text-xs">
                 ADDRESS
               </h2>

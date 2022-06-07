@@ -20,9 +20,8 @@ const Certificate = ({ certificate }) => {
             href={certificate.link}
             rel="noopener"
             target="_blank"
-            className="hover:text-blue-300 transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 hover:bg-black-400 duration-300"
           >
-            <i className="fa-solid fa-eye m-2"></i>
+            <i className="fa-solid fa-eye m-2 hover:text-blue-300 transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 hover:bg-black-400 duration-300"></i>
           </a>
         </div>
       </div>
