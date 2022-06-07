@@ -4,7 +4,7 @@ import skills from "./skillsAPI";
 const Skills = () => {
   return (
     <section id="skills" className="text-gray-400 bg-gray-900 body-font">
-      <div className="container px-20 mx-auto">
+      <div className="container px-20 mx-auto sm:px-5">
         <div className="flex flex-col items-center w-full mb-10">
           <h1 className="sm:text-4xl text-2xl font-medium title-font mb-4 text-white">
             &lt;My Skills/&gt;
