@@ -1,4 +1,5 @@
 import "./App.css";
+import React, { useState } from "react";
 import Header from "./components/Header";
 import ContactUs from "./components/ContactUs";
 import Hero from "./components/Hero";
@@ -9,9 +10,20 @@ import Footer from "./components/Footer";
 import Skills from "./components/Skills/Skills";
 import Certificates from "./components/Certifications/Certificates";
 function App() {
+  const [check,setCheck]=useState(false)
+  const [color, setColor] = useState({
+    mainColor: "green-400",
+    complementaryColor: "gray-400",
+  });
+  const handleColor = () => {
+    color.mainColor === "green-400"
+      ? setColor({ mainColor: "green-900", complementaryColor: "gray-400" })
+      : setColor({ mainColor: "green-400", complementaryColor: "white" });
+      setCheck(!check);
+  };
   return (
     <>
-      <Header />
+      <Header handleColor={handleColor} check={check} />
       <Hero />
       <Skills />
       <Project />
@@ -19,7 +31,7 @@ function App() {
       <WorkExperiences />
       <Testimonial />
       <ContactUs />
-      <Footer />
+      <Footer color={color} />
     </>
   );
 }

@@ -1,7 +1,8 @@
 import React, { useState } from "react";
 // import Button from './Button';
+import Switch from "react-switch";
 
-const Header = () => {
+const Header = ({handleColor,check}) => {
   let Links = [
     { name: "HOME", link: "#home" },
     { name: "SKILLS", link: "#skills" },
@@ -48,6 +49,10 @@ const Header = () => {
               </a>
             </li>
           ))}
+          <li className="mx-3 mt-1">
+        <Switch onChange={handleColor} checked={check} />
+
+          </li>
         </ul>
       </div>
     </div>

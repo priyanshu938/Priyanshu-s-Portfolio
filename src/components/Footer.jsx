@@ -1,7 +1,10 @@
 import React from "react";
-const Footer = () => {
+const Footer = ({ color }) => {
+  const { mainColor, complementaryColor } = color;
   return (
-    <footer className="text-gray-400 bg-gray-900 body-font">
+    <footer
+      className={`text-${complementaryColor} bg-${complementaryColor} body-font`}
+    >
       <div className="container px-20 py-8 mx-auto flex items-center sm:flex-row flex-col">
         <a
           href="#contact"
@@ -20,11 +23,13 @@ const Footer = () => {
             <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
           </svg>
         </a>
-        <p className="text-sm text-gray-400 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-800 sm:py-2 sm:mt-0 mt-4">
+        <p
+          className={`text-sm text-${complementaryColor} sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-${complementaryColor} sm:py-2 sm:mt-0 mt-4`}
+        >
           © Copyright 2022
           <a
             href="#contact"
-            className="text-gray-500 ml-1"
+            className={`text-${complementaryColor} ml-1`}
             rel="noopener noreferrer"
           >
             @Priyanshu Tiwari
@@ -33,7 +38,7 @@ const Footer = () => {
         <span className="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start">
           <a
             href={"https://www.facebook.com/profile.php?id=100027421176030"}
-            className="text-gray-400 hover:text-blue-600 transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 hover:bg-black-400 duration-300"
+            className={`text-${complementaryColor} hover:text-blue-600 transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 hover:bg-black-400 duration-300`}
             title="facebook"
           >
             <svg
@@ -49,7 +54,7 @@ const Footer = () => {
           </a>
           <a
             href={"https://twitter.com/Priyans76074042"}
-            className="ml-4 text-gray-400 hover:text-blue-400 transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 hover:bg-black-400 duration-300"
+            className={`ml-4 text-${complementaryColor} hover:text-blue-400 transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 hover:bg-black-400 duration-300`}
             title="twitter"
           >
             <svg
@@ -65,7 +70,7 @@ const Footer = () => {
           </a>
           <a
             href={"https://www.instagram.com/_.priyanshu._031/"}
-            className="ml-4 text-gray-400 hover:text-red-400 transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 hover:bg-black-400 duration-300"
+            className={`ml-4 text-${complementaryColor} hover:text-red-400 transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 hover:bg-black-400 duration-300`}
             title="instagram"
           >
             <svg
@@ -83,7 +88,7 @@ const Footer = () => {
           </a>
           <a
             href={"https://www.linkedin.com/in/priyanshu-tiwari-602586199"}
-            className="ml-4 text-gray-400 hover:text-blue-600 transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 hover:bg-black-400 duration-300"
+            className={`ml-4 text-${complementaryColor} hover:text-blue-600 transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 hover:bg-black-400 duration-300`}
             title="linkedin"
           >
             <svg
@@ -107,7 +112,7 @@ const Footer = () => {
             href={"https://github.com/priyanshu938"}
             rel="noopener"
             target="_blank"
-            className="ml-4 text-gray-400 hover:text-black-600 transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 hover:bg-black-400 duration-300"
+            className={`ml-4 text-${complementaryColor} hover:text-black-600 transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 hover:bg-black-400 duration-300`}
           >
             <i className="fa-brands fa-github"></i>
           </a>
