@@ -10,7 +10,7 @@ import Skills from "./components/Skills/Skills";
 import Certificates from "./components/Certifications/Certificates";
 function App() {
   return (
-    <>
+    <div className="px-4">
       <Header />
       <Hero />
       <Skills />
@@ -20,7 +20,7 @@ function App() {
       <Testimonial />
       <ContactUs />
       <Footer />
-    </>
+    </div>
   );
 }
 
