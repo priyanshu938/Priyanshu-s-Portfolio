@@ -4,9 +4,9 @@ const ContactUs = () => {
   return (
     <section
       id="contact"
-      className="text-gray-400 bg-gray-900 body-font relative"
+      className="text-gray-400 px-2 bg-gray-900 body-font relative"
     >
-      <div className="container px-20 py-10 mx-auto flex sm:flex-nowrap flex-wrap sm:px-10">
+      <div className="container py-10  flex sm:flex-nowrap flex-wrap sm:px-10">
         <div className="lg:w-2/3 md:w-1/2 bg-gray-900 rounded-lg overflow-hidden sm:mr-5 p-5 flex items-end justify-start relative">
           <iframe
             width="100%"
@@ -26,7 +26,7 @@ const ContactUs = () => {
               </h2>
               <p className="mt-1 px-2">Lucknow,Uttar Pradesh</p>
             </div>
-            <div className="lg:w-2/3 mt-4 lg:mt-0">
+            <div className="lg:w-2/3 mt-2 lg:mt-0 px-2">
               <h2 className="title-font font-semibold text-white tracking-widest text-xs">
                 EMAIL
               </h2>

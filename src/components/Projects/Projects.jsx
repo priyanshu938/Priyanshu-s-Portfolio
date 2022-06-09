@@ -4,7 +4,7 @@ import projects from "./projectsAPI";
 const Projects = () => {
   return (
     <section id="projects" className="text-gray-400 bg-gray-900 body-font">
-      <div className="container px-20 py-20 mx-auto">
+      <div className="container px-20 py-20 mx-10 sm:mx-2">
         <div className="flex flex-col items-center w-full mb-10">
           <h1 className="sm:text-4xl text-2xl font-medium title-font mb-4 text-white">
             &lt;My Projects/&gt;

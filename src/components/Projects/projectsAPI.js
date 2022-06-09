@@ -31,7 +31,7 @@ const projects = [
   {
     id: 4,
     image: "images/todos.jpg",
-    title: "Todos App using React.js",
+    title: "To-do List App using React.js",
     description:
       "A todo list app which saves todos in your local storage in which you can write your daily taks and delete them when they are done.",
     githubLink: "https://github.com/priyanshu938/todos-app-using-REACT",
@@ -89,7 +89,7 @@ const projects = [
   },
   {
     id: 10,
-    image: "images/movies.jpg",
+    image: "images/movies.png",
     title: "Movie App",
     description:
       "In this app you can search for a movie and it will fetch the details for that movie and will show you. ",

@@ -4,7 +4,7 @@ import certificates from "./certificatesAPI";
 const Certificates = () => {
   return (
     <section id="certificates" className="text-gray-400 bg-gray-900 body-font">
-       <div className="container px-10 py-10  mx-auto">
+       <div className="container py-10  ">
         <div className="flex flex-col items-center w-full mb-10">
           <h1 className="sm:text-4xl text-2xl font-medium title-font mb-4 sm:mb-2 text-white">
             &lt;My Certificates/&gt;
