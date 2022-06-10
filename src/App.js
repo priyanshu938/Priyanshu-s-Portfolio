@@ -12,11 +12,15 @@ function App() {
   return (
     <div>
       <Header />
+      <div className="px-4">
       <Hero />
+      </div>
       <Skills />
       <Project />
       <Certificates />
+      <div>
       <WorkExperiences />
+      </div>
       <Testimonial />
       <ContactUs />
       <Footer />

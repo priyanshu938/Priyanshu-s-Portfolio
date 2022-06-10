@@ -2,15 +2,15 @@ import React from "react";
 
 const Certificate = ({ certificate }) => {
   return (
-    <div className="lg:w-1/4 md:w-1/2 ">
+    <div className="lg:w-1/4 md:w-1/2 sm:1 ">
       <div className="flex relative cursor-pointer ">
         <img
           alt="gallery"
-          className="absolute inset-0 w-3/5 h-4/5  object-cover object-center "
+          className="absolute inset-0 w-5/6 h-5/6  object-cover object-center "
           src={certificate.image}
           style={{ maxWidth: "100%", maxHeight: "100%" }}
         />
-        <div className="py-10  z-10 w-full border-2 border-gray-800 bg-gray-900 opacity-0 hover:opacity-100">
+        <div className="px-4 py-10 relative z-10 w-full border-2 border-gray-800 bg-gray-900 opacity-0 hover:opacity-100">
           <h1 className="title-font text-lg font-medium text-white mb-3">
             {certificate.name}
           </h1>
