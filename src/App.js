@@ -12,14 +12,14 @@ function App() {
   return (
     <div>
       <Header />
-      <div className="px-4">
-      <Hero />
+      <div>
+        <Hero />
       </div>
       <Skills />
       <Project />
       <Certificates />
       <div>
-      <WorkExperiences />
+        <WorkExperiences />
       </div>
       <Testimonial />
       <ContactUs />
