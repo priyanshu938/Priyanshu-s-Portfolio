@@ -4,7 +4,7 @@ const works = [
     name: "Techdock Labs Ltd.",
     image: "images/techdock.jpg",
     description: "Working as a MERN Stack Intern.",
-    url: "https://drive.google.com/file/d/1N8SDlot-7VB-QtCEpd9e-t20CxrunFlN/view?usp=sharing",
+    url: "https://drive.google.com/file/d/1_uhJAmyGTYB837Ki1OoRC9gso4hvbkU3/view?usp=drivesdk",
   },
   {
     id: 2,
