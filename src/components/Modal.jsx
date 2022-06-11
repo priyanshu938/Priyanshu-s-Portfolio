@@ -22,7 +22,8 @@ const Modal = ({ link }) => {
                 <div className="relative p-0 flex-auto">
                   <iframe
                     width="500"
-                    height="300"
+                    height="315"
+                    // className="w-full aspect-video h-full"
                     src={link}
                     title="YouTube video player"
                     frameBorder="0"

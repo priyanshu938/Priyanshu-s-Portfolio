@@ -13,7 +13,7 @@ const projects = [
     id: 2,
     image: "images/sachin-portfolio.jpg",
     title: "Sachin's portfolio",
-    description: "Built a Portfolio site for my friend.",
+    description: "Built a Portfolio site for my friend and made it live on the Internet.",
     githubLink: "https://github.com/priyanshu938/Sachin-Portfolio",
     liveProjectLink: "https://sachin-portfolio-app.herokuapp.com/",
     youtubeVideoLink: "https://youtu.be/HxpaU1p1_Cw",
