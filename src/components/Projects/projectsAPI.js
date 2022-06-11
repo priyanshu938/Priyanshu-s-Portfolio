@@ -81,7 +81,7 @@ const projects = [
     youtubeVideoLink: "",
   },
   {
-    id: 5,
+    id: 9,
     image: "images/tindog.jpg",
     title: "Tindog Website",
     description: "A simple static website made using HTML and CSS.",
