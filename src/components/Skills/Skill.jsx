@@ -2,7 +2,7 @@ import React from "react";
 
 const Skill = ({ skill }) => {
   return (
-    <div className="p-2 lg:w-1/4 md:w-1/2 w-full   ">
+    <div className="p-2 lg:w-1/3 md:w-1/2 w-full   ">
       <div className="h-full cursor-pointer flex items-center border-gray-800 border p-4 rounded-lg transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 hover:bg-blue-500 duration-300">
         <img
           alt="team"

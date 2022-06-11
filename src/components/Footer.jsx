@@ -18,6 +18,7 @@ const Footer = () => {
             href={"https://www.facebook.com/profile.php?id=100027421176030"}
             className="text-gray-400 hover:text-blue-600 transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 hover:bg-black-400 duration-300"
             title="facebook"
+            target="_blank"
           >
             <svg
               fill="currentColor"
@@ -34,6 +35,7 @@ const Footer = () => {
             href={"https://twitter.com/Priyans76074042"}
             className="ml-4 text-gray-400 hover:text-blue-400 transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 hover:bg-black-400 duration-300"
             title="twitter"
+            target="_blank"
           >
             <svg
               fill="currentColor"
@@ -50,6 +52,7 @@ const Footer = () => {
             href={"https://www.instagram.com/_.priyanshu._031/"}
             className="ml-4 text-gray-400 hover:text-red-400 transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 hover:bg-black-400 duration-300"
             title="instagram"
+            target="_blank"
           >
             <svg
               fill="none"
@@ -68,6 +71,7 @@ const Footer = () => {
             href={"https://www.linkedin.com/in/priyanshu-tiwari-602586199"}
             className="ml-4 text-gray-400 hover:text-blue-600 transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 hover:bg-black-400 duration-300"
             title="linkedin"
+            target="_blank"
           >
             <svg
               fill="currentColor"

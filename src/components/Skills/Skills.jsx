@@ -3,7 +3,7 @@ import Skill from "./Skill";
 import skills from "./skillsAPI";
 const Skills = () => {
   return (
-    <section class="text-gray-400 bg-gray-900 body-font">
+    <section id="skills" class="text-gray-400 bg-gray-900 body-font">
   <div class="container px-5 py-24 mx-auto">
   <div className="flex flex-col items-center w-full mb-10">
          <h1 className="sm:text-4xl text-2xl font-medium title-font mb-4 text-white">
