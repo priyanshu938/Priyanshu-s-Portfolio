@@ -10,7 +10,7 @@ const Projects = () => {
     setModalLink(link);
   };
   return (
-    <section className="text-gray-400 bg-gray-900 body-font">
+    <section id="projects" className="text-gray-400 bg-gray-900 body-font">
       <div className="container px-5 py-24 mx-auto">
         <div className="flex flex-col items-center w-full mb-10">
           <h1 className="sm:text-4xl text-2xl font-medium title-font mb-4 text-white">
