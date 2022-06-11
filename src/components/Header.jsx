@@ -13,7 +13,7 @@ const Header = () => {
   let [open, setOpen] = useState(false);
   return (
     <div className="shadow-md w-full fixed top-0 left-0">
-      <div className="md:flex items-center justify-between bg-gray-600 py-4 md:px-10 px-7">
+      <div className="md:flex items-center justify-between bg-gray-600 py-4 md:px-5 px-2">
         <div
           className="font-bold text-2xl cursor-pointer flex items-center font-[Poppins] 
       text-white"
@@ -39,7 +39,10 @@ const Header = () => {
           }`}
         >
           {Links.map((link) => (
-            <li key={link.name} className="md:ml-8 text-xl md:my-0 my-7 hover:text-black-600 transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 hover:bg-black-400 duration-200">
+            <li
+              key={link.name}
+              className="md:ml-8 text-xl md:my-0 my-7 hover:text-black-600 transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 hover:bg-black-400 duration-200"
+            >
               <a
                 href={link.link}
                 className="text-white hover:text-black duration-500 "

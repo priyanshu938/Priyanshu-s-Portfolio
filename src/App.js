@@ -10,21 +10,17 @@ import Skills from "./components/Skills/Skills";
 import Certificates from "./components/Certifications/Certificates";
 function App() {
   return (
-    <div>
+    <>
       <Header />
-      <div>
-        <Hero />
-      </div>
+      <Hero />
       <Skills />
       <Project />
       <Certificates />
-      <div>
-        <WorkExperiences />
-      </div>
+      <WorkExperiences />
       <Testimonial />
       <ContactUs />
       <Footer />
-    </div>
+    </>
   );
 }
 

@@ -7,9 +7,7 @@ const skills = [
   { id: 6, skill: "React.js", image: "images/react.png" },
   { id: 7, skill: "Node.js", image: "images/nodejs.png" },
   { id: 8, skill: "Java", image: "images/java.png" },
-  { id: 9, skill: "Git", image: "images/git.png" },
-
-
-
+  { id: 9, skill: "Python", image: "images/python.png" },
+  { id: 10, skill: "Git", image: "images/git.png" },
 ];
 export default skills;
