@@ -7,7 +7,7 @@ const projects = [
       "A web app that simulates Paging Algorithms-FIFO,LFU,LRU and Optimal.",
     githubLink: "https://github.com/priyanshu938/Paging-Algorithms-Simulator",
     liveProjectLink: "https://online-paging-tool.herokuapp.com/",
-    youtubeVideoLink: "https://youtu.be/W1uZ9rn7rik",
+    youtubeVideoLink: "https://www.youtube.com/embed/W1uZ9rn7rik",
   },
   {
     id: 2,
@@ -16,7 +16,7 @@ const projects = [
     description: "Built a Portfolio site for my friend and made it live on the Internet.",
     githubLink: "https://github.com/priyanshu938/Sachin-Portfolio",
     liveProjectLink: "https://sachin-portfolio-app.herokuapp.com/",
-    youtubeVideoLink: "https://youtu.be/HxpaU1p1_Cw",
+    youtubeVideoLink: "https://www.youtube.com/embed/HxpaU1p1_Cw",
   },
   {
     id: 3,
@@ -36,7 +36,7 @@ const projects = [
       "This is a simple Postman Clone made using HTML ,Bootstrap and vanilla Java script.",
     githubLink: "https://github.com/priyanshu938/APITesterApp",
     liveProjectLink: "https://priyanshu938.github.io/APITesterApp/",
-    youtubeVideoLink: "https://youtu.be/P2rh1bTx12I",
+    youtubeVideoLink: "https://www.youtube.com/embed/P2rh1bTx12I",
   },
 
   {
@@ -47,7 +47,7 @@ const projects = [
       "This is a small demonstration of speech recognition module of python smartly made to perform various operations through speech recognition.",
     githubLink: "https://github.com/priyanshu938/Starvis-AI-Project",
     liveProjectLink: "",
-    youtubeVideoLink: "https://youtu.be/ULnO4bxj39c",
+    youtubeVideoLink: "https://www.youtube.com/embed/ULnO4bxj39c",
   },
 
   {
