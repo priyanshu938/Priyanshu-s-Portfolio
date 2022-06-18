@@ -13,7 +13,8 @@ const projects = [
     id: 2,
     image: "images/sachin-portfolio.jpg",
     title: "Sachin's portfolio",
-    description: "Built a Portfolio site for my friend and made it live on the Internet.",
+    description:
+      "Built a Portfolio site for my friend and made it live on the Internet.",
     githubLink: "https://github.com/priyanshu938/Sachin-Portfolio",
     liveProjectLink: "https://sachin-portfolio-app.herokuapp.com/",
     youtubeVideoLink: "https://www.youtube.com/embed/HxpaU1p1_Cw",
@@ -65,7 +66,7 @@ const projects = [
     image: "images/secrets.png",
     title: "Secrets Share",
     description:
-      "A Secrets share site on which users can visit and login thourgh their id's and share their secrets without their identity being disclosed.",
+      "A Secrets share site on which users can visit and login through their id's and share their secrets without their identity being disclosed.",
     githubLink: "https://github.com/priyanshu938/Authentication_Secrets",
     liveProjectLink: "",
     youtubeVideoLink: "",
@@ -75,39 +76,9 @@ const projects = [
     image: "images/todos.jpg",
     title: "To-do List App using React.js",
     description:
-      "A todo list app which saves todos in your local storage in which you can write your daily taks and delete them when they are done.",
+      "A todo list app which saves todos in your local storage in which you can write your daily task and delete them when they are done.",
     githubLink: "https://github.com/priyanshu938/todos-app-using-REACT",
     liveProjectLink: "https://priyanshu938.github.io/todos-app-using-REACT/",
-    youtubeVideoLink: "",
-  },
-  {
-    id: 9,
-    image: "images/tindog.jpg",
-    title: "Tindog Website",
-    description: "A simple static website made using HTML and CSS.",
-    githubLink: "https://github.com/priyanshu938/tindogSite",
-    liveProjectLink: "",
-    youtubeVideoLink: "",
-  },
-
-  {
-    id: 10,
-    image: "images/movies.png",
-    title: "Movie App",
-    description:
-      "In this app you can search for a movie and it will fetch the details for that movie and will show you. ",
-    githubLink: "https://github.com/priyanshu938/Movie-App",
-    liveProjectLink: "",
-    youtubeVideoLink: "",
-  },
-  {
-    id: 11,
-    image: "images/compiler.png",
-    title: "Online Compiler",
-    description:
-      "Online Compiler Web App built using Html5,Node.js,Express.js and EJS templating engine. The web app supports copiling and executing programs in Java,C++,Python and C language respectively. You can also add console inputs. Press run button to see the output.",
-    githubLink: "https://github.com/priyanshu938/CompilerApp",
-    liveProjectLink: "https://your-own-compiler.herokuapp.com/",
     youtubeVideoLink: "",
   },
 ];

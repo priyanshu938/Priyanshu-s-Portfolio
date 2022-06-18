@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 
-const Modal = ({ link }) => {
-  const [modal, setModal] = useState(true);
+const Modal = ({ link, modalOpen, setModalOpen }) => {
+  const [modal, setModal] = useState(modalOpen);
   return (
     <>
       {modal && (
@@ -12,7 +12,10 @@ const Modal = ({ link }) => {
                 <div className="flex items-start justify-between p-2 border-b border-solid border-slate-200 rounded-t">
                   <button
                     className="p-1 ml-auto bg-blue border-0 text-black float-right text-3xl leading-none font-semibold outline-none focus:outline-none"
-                    onClick={() => setModal(false)}
+                    onClick={() => {
+                      setModal(false);
+                      setModalOpen(!modalOpen);
+                    }}
                   >
                     <span className="bg-blue text-black  h-6 w-6 text-2xl block outline-none focus:outline-none">
                       x
@@ -21,9 +24,7 @@ const Modal = ({ link }) => {
                 </div>
                 <div className="relative p-0 flex-auto">
                   <iframe
-                    width="500"
-                    height="315"
-                    // className="w-full aspect-video h-full"
+                    className="iframeSet"
                     src={link}
                     title="YouTube video player"
                     frameBorder="0"

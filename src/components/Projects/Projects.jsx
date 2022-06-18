@@ -18,7 +18,9 @@ const Projects = () => {
             <div className="h-1 w-3/4 bg-blue-500 rounded "></div>
           </h1>
         </div>
-        {modal && <Modal link={modalLink} />}
+        {modal && (
+          <Modal link={modalLink} modalOpen={modal} setModalOpen={setModal} />
+        )}
         <div className="flex flex-wrap -m-4">
           {projects.map((project) => (
             <Project key={project.id} project={project} showModal={showModal} />
