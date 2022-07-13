@@ -28,7 +28,7 @@ const Hero = () => {
           <div className="flex justify-center">
             <a
               href={
-                "https://drive.google.com/file/d/1bi1gPG9gF1acVmV9Tk246qlRgJkwiSWY/view?usp=sharing"
+                "https://drive.google.com/file/d/1pCV_1yHXrP9O8PsUzaJZZK0SVOX044E5/view?usp=sharing"
               }
               target="_blank"
             >
