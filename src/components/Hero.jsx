@@ -1,5 +1,14 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 const Hero = () => {
+  const url =
+    "https://raw.githubusercontent.com/priyanshu938/Priyanshu-s-Portfolio-APIs/main/resume.json";
+  //fetch data from url
+  const [resumeLink, setResumeLink] = useState("");
+  useEffect(() => {
+    fetch(url)
+      .then((res) => res.json())
+      .then((data) => setResumeLink(data.link));
+  }, []);
   return (
     <section id="home" className="text-gray-400 bg-gray-900 body-font">
       <div className="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
@@ -26,12 +35,7 @@ const Hero = () => {
             Proficient in MERN Stack.
           </p>
           <div className="flex justify-center">
-            <a
-              href={
-                "https://drive.google.com/file/d/1pCV_1yHXrP9O8PsUzaJZZK0SVOX044E5/view?usp=sharing"
-              }
-              target="_blank"
-            >
+            <a href={resumeLink} target="_blank">
               <button className="inline-flex text-white bg-blue-500 border-0 py-2 px-6 focus:outline-none hover:bg-blue-600 rounded text-lg">
                 Resume
               </button>
