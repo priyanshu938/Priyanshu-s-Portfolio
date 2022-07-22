@@ -1,7 +1,15 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import WorkExperience from "./WorkExperience";
-import works from "./worksAPI";
 const WorkExperiences = () => {
+  const url =
+    "https://raw.githubusercontent.com/priyanshu938/Priyanshu-s-Portfolio-APIs/main/works.json";
+  //fetch data from url
+  const [works, setWorks] = useState([]);
+  useEffect(() => {
+    fetch(url)
+      .then((res) => res.json())
+      .then((data) => setWorks(data));
+  }, []);
   return (
     <section id="works" className="text-gray-400 body-font bg-gray-900">
       <div className="container px-5 py-24 mx-auto">

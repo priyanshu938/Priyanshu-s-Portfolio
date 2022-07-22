@@ -1,8 +1,16 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import Project from "./Project";
-import projects from "./projectsAPI";
 import Modal from "../Modal";
 const Projects = () => {
+  const url =
+    "https://raw.githubusercontent.com/priyanshu938/Priyanshu-s-Portfolio-APIs/main/projects.json";
+  //fetch data from url
+  const [projects, setProjects] = useState([]);
+  useEffect(() => {
+    fetch(url)
+      .then((res) => res.json())
+      .then((data) => setProjects(data));
+  }, []);
   const [modal, setModal] = useState(false);
   const [modalLink, setModalLink] = useState("");
   const showModal = (link) => {

@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from "react";
 import Certificate from "./Certificate";
-import certificates from "./certificatesAPI";
 const Certificates = () => {
   const url =
     "https://raw.githubusercontent.com/priyanshu938/Priyanshu-s-Portfolio-APIs/main/certificates.json";

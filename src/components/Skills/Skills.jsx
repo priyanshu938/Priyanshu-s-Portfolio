@@ -1,7 +1,15 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import Skill from "./Skill";
-import skills from "./skillsAPI";
 const Skills = () => {
+  const url =
+    "https://raw.githubusercontent.com/priyanshu938/Priyanshu-s-Portfolio-APIs/main/skills.json";
+  //fetch data from url
+  const [skills, setSkills] = useState([]);
+  useEffect(() => {
+    fetch(url)
+      .then((res) => res.json())
+      .then((data) => setSkills(data));
+  }, []);
   return (
     <section id="skills" className="text-gray-400 bg-gray-900 body-font">
       <div className="container px-5 py-24 mx-auto">
