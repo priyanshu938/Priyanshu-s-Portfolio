@@ -1,16 +1,15 @@
 import React, { useState, useEffect } from "react";
 import Certificate from "./Certificate";
+import Url from "../ServerUrl";
+import axios from "axios";
 const Certificates = () => {
-  const url =
-    "https://raw.githubusercontent.com/priyanshu938/Priyanshu-s-Portfolio-APIs/main/certificates.json";
-  //fetch data from url
+  const url = `${Url}/certificates/getAllCertificates`;
   const [certificates, setCertificates] = useState([]);
   useEffect(() => {
-    fetch(url)
-      .then((res) => res.json())
-      .then((data) => setCertificates(data));
+    axios.get(url).then((res) => {
+      setCertificates(res.data.result);
+    });
   }, []);
-
   return (
     <section id="certificates" className="text-gray-400 bg-gray-900 body-font">
       <div className="container px-5 py-24 mx-auto">
