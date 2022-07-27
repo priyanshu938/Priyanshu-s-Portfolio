@@ -1,15 +1,17 @@
 import React, { useState, useEffect } from "react";
 import Project from "./Project";
 import Modal from "../Modal";
+import Url from "../ServerUrl";
+import axios from "axios";
 const Projects = () => {
-  const url =
-    "https://raw.githubusercontent.com/priyanshu938/Priyanshu-s-Portfolio-APIs/main/projects.json";
+  const url = `${Url}/projects/getAllProjects`;
+
   //fetch data from url
   const [projects, setProjects] = useState([]);
   useEffect(() => {
-    fetch(url)
-      .then((res) => res.json())
-      .then((data) => setProjects(data));
+    axios.get(url).then((res) => {
+      setProjects(res.data.result);
+    });
   }, []);
   const [modal, setModal] = useState(false);
   const [modalLink, setModalLink] = useState("");
