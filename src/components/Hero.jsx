@@ -1,13 +1,14 @@
 import React, { useState, useEffect } from "react";
+import Url from "./ServerUrl";
+import axios from "axios";
 const Hero = () => {
-  const url =
-    "https://raw.githubusercontent.com/priyanshu938/Priyanshu-s-Portfolio-APIs/main/resume.json";
-  //fetch data from url
+  const url = `${Url}/resume/getResume`;
   const [resumeLink, setResumeLink] = useState("");
   useEffect(() => {
-    fetch(url)
-      .then((res) => res.json())
-      .then((data) => setResumeLink(data.link));
+    axios.get(url).then((res) => {
+      console.log(res);
+      setResumeLink(res.data.result[0].link);
+    });
   }, []);
   return (
     <section id="home" className="text-gray-400 bg-gray-900 body-font">
