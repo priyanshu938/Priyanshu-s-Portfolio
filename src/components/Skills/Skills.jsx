@@ -22,7 +22,7 @@ const Skills = () => {
         </div>
         <div className="flex flex-wrap -m-2">
           {skills.map((skill) => (
-            <Skill key={skill.id} skill={skill} />
+            <Skill key={skill._id} skill={skill} />
           ))}
         </div>
       </div>

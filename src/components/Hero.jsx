@@ -6,7 +6,6 @@ const Hero = () => {
   const [resumeLink, setResumeLink] = useState("");
   useEffect(() => {
     axios.get(url).then((res) => {
-      console.log(res);
       setResumeLink(res.data.result[0].link);
     });
   }, []);

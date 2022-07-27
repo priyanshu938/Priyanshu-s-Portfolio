@@ -21,7 +21,7 @@ const Certificates = () => {
         </div>
         <div className="flex flex-wrap -m-4">
           {certificates.map((certificate) => (
-            <Certificate key={certificate.id} certificate={certificate} />
+            <Certificate key={certificate._id} certificate={certificate} />
           ))}
         </div>
       </div>

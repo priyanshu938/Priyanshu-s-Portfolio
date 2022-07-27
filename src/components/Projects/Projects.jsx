@@ -33,7 +33,7 @@ const Projects = () => {
         )}
         <div className="flex flex-wrap -m-4">
           {projects.map((project) => (
-            <Project key={project.id} project={project} showModal={showModal} />
+            <Project key={project._id} project={project} showModal={showModal} />
           ))}
         </div>
       </div>
