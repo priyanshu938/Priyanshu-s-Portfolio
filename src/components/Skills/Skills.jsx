@@ -1,15 +1,16 @@
 import React, { useState, useEffect } from "react";
 import Skill from "./Skill";
+import Url from "../ServerUrl";
+import axios from "axios";
 const Skills = () => {
-  const url =
-    "https://raw.githubusercontent.com/priyanshu938/Priyanshu-s-Portfolio-APIs/main/skills.json";
-  //fetch data from url
+  const url = `${Url}/skills/getAllSkills`;
   const [skills, setSkills] = useState([]);
   useEffect(() => {
-    fetch(url)
-      .then((res) => res.json())
-      .then((data) => setSkills(data));
+    axios.get(url).then((res) => {
+      setSkills(res.data.result);
+    });
   }, []);
+
   return (
     <section id="skills" className="text-gray-400 bg-gray-900 body-font">
       <div className="container px-5 py-24 mx-auto">
