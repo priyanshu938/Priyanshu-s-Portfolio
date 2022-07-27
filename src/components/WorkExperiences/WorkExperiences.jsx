@@ -1,14 +1,15 @@
 import React, { useState, useEffect } from "react";
 import WorkExperience from "./WorkExperience";
+import Url from "../ServerUrl";
+import axios from "axios";
 const WorkExperiences = () => {
-  const url =
-    "https://raw.githubusercontent.com/priyanshu938/Priyanshu-s-Portfolio-APIs/main/works.json";
-  //fetch data from url
+  const url = `${Url}/works/getAllWorks`;
+
   const [works, setWorks] = useState([]);
   useEffect(() => {
-    fetch(url)
-      .then((res) => res.json())
-      .then((data) => setWorks(data));
+    axios.get(url).then((res) => {
+      setWorks(res.data.result);
+    });
   }, []);
   return (
     <section id="works" className="text-gray-400 body-font bg-gray-900">
@@ -23,8 +24,8 @@ const WorkExperiences = () => {
           </div>
         </div>
         <div className="flex flex-wrap -m-4">
-          {works.map((work) => (
-            <WorkExperience key={work.id} work={work} />
+          {works.map((work, index) => (
+            <WorkExperience key={work._id} id={index + 1} work={work} />
           ))}
         </div>
       </div>
