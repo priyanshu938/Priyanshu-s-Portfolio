@@ -3,9 +3,13 @@ import Url from "./ServerUrl";
 import axios from "axios";
 const Hero = () => {
   const url = `${Url}/resume/getResume`;
+  const [image, setImage] = useState("");
+  const [description, setDescription] = useState("");
   const [resumeLink, setResumeLink] = useState("");
   useEffect(() => {
     axios.get(url).then((res) => {
+      setImage(res.data.result[0].image);
+      setDescription(res.data.result[0].description);
       setResumeLink(res.data.result[0].link);
     });
   }, []);
@@ -16,7 +20,7 @@ const Hero = () => {
           <img
             className="object-cover object-center rounded "
             alt="hero"
-            src={"images/profile-pic.png"}
+            src={image}
             height={"300vh"}
             width={"300vw"}
           />
@@ -27,13 +31,7 @@ const Hero = () => {
             <br className="hidden lg:inline-block" />
             Priyanshu Tiwari
           </h1>
-          <p className="mb-8 leading-relaxed">
-            {" "}
-            I always do my best in what I take. A very positive person who loves
-            learning new things and meeting new people.A full stack web
-            developer.Passionate to learn new web technologies and frameworks.
-            Proficient in MERN Stack.
-          </p>
+          <p className="mb-8 leading-relaxed">{description}</p>
           <div className="flex justify-center">
             <a href={resumeLink} target="_blank">
               <button className="inline-flex text-white bg-blue-500 border-0 py-2 px-6 focus:outline-none hover:bg-blue-600 rounded text-lg">
