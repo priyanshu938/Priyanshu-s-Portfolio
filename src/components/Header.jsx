@@ -34,7 +34,7 @@ const Header = () => {
 
         <ul
           className={`md:flex md:items-center md:pb-0 pb-2 absolute md:static bg-gray-600 md:z-auto z-[-1] left-0 w-full md:w-auto md:pl-0 pl-9 transition-all duration-500 ease-in ${
-            open ? "top-20 " : "top-[-490px]"
+            open ? "top-19 " : "top-[-490px]"
           }`}
         >
           {Links.map((link) => (
