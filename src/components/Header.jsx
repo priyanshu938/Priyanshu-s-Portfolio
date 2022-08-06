@@ -6,6 +6,7 @@ const Header = () => {
     { name: "SKILLS", link: "#skills" },
     { name: "PROJECTS", link: "#projects" },
     { name: "CERTIFICATES", link: "#certificates" },
+    { name: "MY VIDEOS", link: "#videos" },
     { name: "WORKS", link: "#works" },
     { name: "CONTACT", link: "#contact" },
   ];
