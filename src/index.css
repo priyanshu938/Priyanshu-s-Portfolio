@@ -17,9 +17,8 @@ code {
   height: 315px;
 }
 .iframeSetVideos {
-    width: 400px;
-    height: 315px;
-  }
+  height: 250px;
+}
 @media screen and (max-width: 600px) {
   .iframeSet {
     width: 300px;
