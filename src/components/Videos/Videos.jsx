@@ -11,8 +11,6 @@ const Videos = () => {
     axios.get(url).then((res) => {
       setVideos(res.data.result);
       setChannelLink(res.data.channelLink);
-      console.log(videos);
-      console.log(channelLink);
     });
   }, []);
   return (

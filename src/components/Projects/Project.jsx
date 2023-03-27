@@ -17,7 +17,7 @@ const Project = ({ project, showModal }) => {
             </h2>
             <p className="mb-4">{project.description}</p>
             <span className="inline-flex">
-              {project.githubLink !== "" && (
+              {project.githubLink && (
                 <a
                   title="open github code"
                   href={project.githubLink}
@@ -28,7 +28,7 @@ const Project = ({ project, showModal }) => {
                   <i className="fa-brands fa-github m-2"></i>
                 </a>
               )}
-              {project.youtubeVideoLink !== "" && (
+              {project.youtubeVideoLink && (
                 <a
                   title="watch youtube video"
                   rel="noopener"
@@ -43,7 +43,7 @@ const Project = ({ project, showModal }) => {
                   ></i>
                 </a>
               )}
-              {project.liveProjectLink !== "" && (
+              {project.liveProjectLink && (
                 <a
                   title="show demo"
                   href={project.liveProjectLink}
